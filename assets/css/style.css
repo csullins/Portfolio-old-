@@ -1,0 +1,59 @@
+* {
+    font-family: 'Nunito', sans-serif;   
+}
+
+body {
+    background-color: #FFFBF6;
+    display: block;
+}
+
+main {
+    border-color: black;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    padding-top: 100px;
+    animation-delay: 38s;
+    animation: fadeIn 8s;
+}
+
+main h3, h4 {
+    padding-bottom: 10%;
+    margin: 0%;
+    animation-delay: 38s;
+    animation: fadeIn 8s;
+}
+
+main h4  {
+    text-shadow: 4px 4px 13px #d08686;
+    font-size: 12px;
+    padding-bottom: 100px;
+    animation-delay: 8s;
+    animation: fadeIn 8s;
+}
+h4 span {
+    font-style: italic;
+    animation: fadeIn 10s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  nav div {
+    transform: skew(-15deg);
+  }
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+    border: 2px solid;
+    justify-content: space-between;
+}
+
+.contact-detail {
+    font-style: italic;
+}
