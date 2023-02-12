@@ -69,8 +69,8 @@ a {
 
 .portfolio {
     background-color: #201c1d;
-    border: solid 2px magenta;
-    padding: 50px 0px;
+    box-shadow: 4px 4px 13px #d08686;
+    padding: 100px 0px;
 }
 /* "A collection of my work"*/
 .portfolio header {
@@ -78,7 +78,7 @@ a {
     text-align: center;
     font-size: 50px;
 }
-
+/* "indeed a work in progress."*/
 .portfolio header span {
     font-style: italic;
     font-size: 15px;
@@ -86,8 +86,7 @@ a {
 
 .portfolio-content {
     display: flex;
-    border: 2px solid green;
-    background-color: black;
+    height: auto;
     text-align: center;
     padding: 0;
     margin-left: 0;
@@ -96,56 +95,67 @@ a {
 .portfolio-content li {
     list-style-type: none;
     flex-wrap: wrap;
-    border: 2px solid rgb(0, 247, 255);
-    background-color: #323232;
-    color: rgb(255, 255, 0);
+    color: #cf9393;
+    text-decoration: none;
+    text-shadow: 4px 4px 13px #d08686;
     margin: auto;
     width: 100%;
-    height: 500px;
-    overflow-y: scroll;
+    height: 400px;
+    overflow: hidden;
+    text-align: center;
 }
 
 .time-wasters {
     background-color: #0c0a0b;
-    border: solid 2px rgb(0, 195, 255);
-    padding: 50px 0px;
+    padding: 100px 0px;
+    box-shadow: 4px 4px 13px #d08686;
+    
 }
-/* "Some fun experiments."*/
+/* "Some fun time wasters."*/
 .time-wasters header {
-        padding-top: 100px;
         text-align: center;
         font-size: 50px;
 }
 
 .time-wasters-content {
     display: flex;
-    border: 2px solid green;
     background-color: black;
     text-align: center;
     padding: 50px;
     padding: 0;
     margin-left: 0;
 }
+/* "Click on each to take a break..."*/
+.time-wasters p {
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
+}
 
 .time-wasters-content li {
     list-style-type: none;
-    border: 2px solid rgb(0, 247, 255);
-    background-color: #323232;
-    color: rgb(255, 255, 0);
     margin: auto;
     width: 100%;
     height: 200px;
+    object-fit: fill;
+}
+.time-wasters-content img {
+    border-radius: 50%;
 }
 /* "Curriculum vitae" */
 .all-business {
-    border: solid 3px rgb(153, 0, 255);
-    padding: 50px 0px;
+    border: solid 3px #fff7002a;
+    padding: 100px 0px;
     text-align: center;
     font-size: 30px;
 }
 
+.all-business span {
+    font-style: italic;
+    font-size: 12px;
+}
+
 .contact {
-    border: #0c0a0b solid 4px;
     padding: 100px 50px
 }
 /* "Camile Sullins"*/
