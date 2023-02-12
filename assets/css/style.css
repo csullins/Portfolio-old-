@@ -26,7 +26,6 @@ main h3, h4 {
 main h4  {
     font-size: 13px;
     padding-top: 50px;
-    padding-bottom: 100px;
     animation: fadeIn 8s;
 }
 /* "on my journey"*/
@@ -39,11 +38,14 @@ h4 span {
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
+
+  nav {
+    padding: 150px 0px;
+  }
 /* section for the main 4 clickable links in nav section*/
   nav li {
     transform: skew(-25deg);
     display: flex;
-    flex-wrap: wrap;
     padding: 100px;
     background-image: linear-gradient(    
         -225deg,
@@ -51,6 +53,7 @@ h4 span {
     #36292f 29%,
     #70445653 67%,
     #fff7002a 100%);
+    box-shadow: 4px 4px 30px #d08686c6;;
   }
 
 /* When hover over the nav links, on focues each box should shrink left, then ease out when not
@@ -72,7 +75,6 @@ a {
 /* "A collection of my work"*/
 .portfolio header {
     padding-top: 100px;
-    border: 2px solid red;
     text-align: center;
     font-size: 50px;
 }
@@ -93,12 +95,13 @@ a {
 
 .portfolio-content li {
     list-style-type: none;
+    flex-wrap: wrap;
     border: 2px solid rgb(0, 247, 255);
     background-color: #323232;
     color: rgb(255, 255, 0);
     margin: auto;
     width: 100%;
-    height: 600px;
+    height: 500px;
     overflow-y: scroll;
 }
 
@@ -110,7 +113,6 @@ a {
 /* "Some fun experiments."*/
 .time-wasters header {
         padding-top: 100px;
-        border: 2px solid red;
         text-align: center;
         font-size: 50px;
 }
