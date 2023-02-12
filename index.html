@@ -33,9 +33,9 @@
             </li>
         </ul>
     </nav>
-    <section>
-        <header id="portfolio">A collection of my work. <span>[indeed, a work in progress...]</span></header>
-            <ul class="portfolio-items"> 
+    <section class="portfolio">
+        <header id="portfolio">A collection of my work. <br><span>[indeed, a work in progress...]</span></header>
+            <ul class="portfolio-content"> 
                 <li>First Student Assignment</li>
                 <li>Second Student Assignment</li>
                 <li>Third Student Assignment</li>
@@ -43,17 +43,22 @@
 
         </p>
     </section>
-    <section id="time-wasters" class="nav-items">
-        <p>Fun things I've been testing out.</p>
+    <section class="time-wasters">
+        <header id="time-wasters" >Some fun experiments.</header>
+        <ul class="time-wasters-content"> 
+            <li>First time-waster</li>
+            <li>Second time waster</li>
+        </ul>
     </section>
-    <section id="all-business" class="nav-items">
-        <p>Curriculum vitae and professional references.</p>
+    
+    <section class="all-business" id="all-business">Curriculum vitae (add link to resume).
     </section>
-    <section id="contact" class="nav-items">
+
+    <section id="contact" class="contact">
         <img src="assets/images/me.jpeg" alt="photo of me">
         <div>
-            <p>Where I'm found: <span class="contact-detail">Austin, TX</span></p>
-            <p>When can you find me: <span class="contact-detail">Always, but preferably 9am to 6pm weekdays.</span></p>
+            <p>Where I'm found: <span class="contact-answer">Austin, TX</span></p>
+            <p>When can you find me: <span class="contact-answer">Always, but preferably 9am to 6pm weekdays.</span></p>
 
         <form action="mailto:dummy@gmail.com" method="post" enctype="text/plain">
             <label>Name:</label>
@@ -62,7 +67,7 @@
             <input type="email" name="YourEmail" value=""><br>
             <label>Message:</label><br>
             <textarea name="yourMessage" rows="8" cols="30">This website is so cool! Just thought you should know.</textarea><br>
-            <input type="submit" name="">
+            <input type="submit" class="button-submit">
     </section>
     
 </body>
