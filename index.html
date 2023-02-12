@@ -17,6 +17,9 @@
     </div>  
     </main>
 
+
+<!--WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section-->
     <nav>
         <ul>
             <li>
@@ -33,12 +36,20 @@
             </li>
         </ul>
     </nav>
+    <!--WHEN I click on the link to the section about their work
+        THEN the UI scrolls to a section with titled images of the developer's applications-->     
     <section class="portfolio">
         <header id="portfolio">A collection of my work. <br><span>[indeed, a work in progress...]</span></header>
-            <ul class="portfolio-content"> 
-                <li>First Student Assignment</li>
-                <li>Second Student Assignment</li>
-                <li>Third Student Assignment</li>
+                <ul class="portfolio-content"> 
+                <li>Code Refactor with the Horiseon Webpage
+                    <img src="assets/images/horiseon-mock-up.png" width="100% alt="horiseon mockup">   
+                </li>
+                <li>Module 2 Portfolio
+                    <img src="assets/images/mod2-mockup.png" width="100% alt="portfolio">
+                </li>
+                <li>My Very First Website
+                    <img src="assets/images/Camile Sullins.png" width="100%" alt="mockup of very first website"
+                </li>
             </ul>
 
         </p>
@@ -54,11 +65,17 @@
     <section class="all-business" id="all-business">Curriculum vitae (add link to resume).
     </section>
 
-    <section id="contact" class="contact">
+
+<!--WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+    -->
+    <section id="contact" class="contact"> 
+        <header>Camile Sullins</header><br>
         <img src="assets/images/me.jpeg" alt="photo of me">
         <div>
+            <p>What I do: <span class="contact-answer">Web & graphic design</span></p>
             <p>Where I'm found: <span class="contact-answer">Austin, TX</span></p>
-            <p>When can you find me: <span class="contact-answer">Always, but preferably 9am to 6pm weekdays.</span></p>
+            <p>When can you find me: <span class="contact-answer">Always, but preferably 9am to 6pm weekdays</span></p>
 
         <form action="mailto:dummy@gmail.com" method="post" enctype="text/plain">
             <label>Name:</label>
