@@ -56,7 +56,7 @@ h4 span {
     #70445653 67%,
     #fff7002a 100%);
     box-shadow: 4px 4px 30px #d08686c6;
-    flex: 1 0 200px;
+    flex: 1 0;
 }
 
 a {
@@ -72,14 +72,9 @@ a {
 }
 /* "A collection of my work"*/
 .portfolio header {
-    padding-top: 100px;
+    padding: 100px;
     text-align: center;
     font-size: 50px;
-}
-/* "indeed a work in progress."*/
-.portfolio header span {
-    font-style: italic;
-    font-size: 15px;
 }
 
 .portfolio-content {
@@ -90,9 +85,9 @@ a {
     margin-left: 0;
 }
 
-.portfolio-content li {
-    list-style-type: none;
+.portfolio-content div {
     flex-wrap: wrap;
+    flex: 1 0;
     color: #cf9393;
     text-decoration: none;
     text-shadow: 4px 4px 13px #d08686;
@@ -141,19 +136,20 @@ a {
     border-radius: 50%;
 }
 /* "Curriculum vitae" */
-.all-business {
-    padding: 100px 0px;
+.CV {
+    padding-top: 100px;
     text-align: center;
     font-size: 30px;
 }
 
-.all-business span {
+.CV span {
     font-style: italic;
     font-size: 12px;
 }
 
 .contact {
-    padding: 100px 50px
+    padding: 100px 50px;
+    text-align: center;
 }
 /* "Camile Sullins"*/
 .contact header {
