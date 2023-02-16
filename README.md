@@ -17,4 +17,4 @@ The portfolio can be opened in any browser and includes features such as:
 
 The following image shows the web application's appearance and functionality:
 
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+![portfolio demo](/Portfolio/assets/images/Camile%20Sullins.gif)
