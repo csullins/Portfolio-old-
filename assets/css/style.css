@@ -40,7 +40,7 @@ h4 span {
   }
 /* Nav section is responsive to screen size with the flex property.*/
   nav {
-    padding: 150px 0px;
+    padding-bottom: 100px;
     display: flex;
     flex-wrap: wrap;
   }
@@ -53,8 +53,8 @@ h4 span {
         -225deg,
     #201c1d 0%,
     #36292f 29%,
-    #70445653 67%,
-    #fff7002a 100%);
+    #7044563b 67%,
+    #ff8c0018 100%);
     box-shadow: 4px 4px 30px #d08686c6;
     flex: 1 0;
 }
@@ -86,8 +86,7 @@ a {
 }
 
 .portfolio-content div {
-    flex-wrap: wrap;
-    flex: 1 0;
+    display: flex;
     color: #cf9393;
     text-decoration: none;
     text-shadow: 4px 4px 13px #d08686;
@@ -96,10 +95,10 @@ a {
     height: 300px;
     overflow: hidden;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .time-wasters {
-    background-color: #0c0a0b;
     padding: 100px 0px;
     box-shadow: 4px 4px 13px #d08686;
     
@@ -112,7 +111,7 @@ a {
 
 .time-wasters-content {
     display: flex;
-    background-color: black;
+    background-color: rgb(41, 38, 38);
     text-align: center;
     padding: 50px;
     padding: 0;
@@ -137,9 +136,11 @@ a {
 }
 /* "Curriculum vitae" */
 .CV {
-    padding-top: 100px;
+    padding: 100px;
     text-align: center;
     font-size: 30px;
+    box-shadow: 4px 4px 13px #d08686;
+    background-color: #201c1d;
 }
 
 .CV span {
@@ -148,12 +149,20 @@ a {
 }
 
 .contact {
-    padding: 100px 50px;
+    padding: 50px 50px;
     text-align: center;
 }
 /* "Camile Sullins"*/
 .contact header {
    font-size: 20px;
+   padding-top: 20px;
+}
+
+.contact h3 {
+    padding: 50px;;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 4px 4px 13px #d08686;
 }
 
 .contact img {
