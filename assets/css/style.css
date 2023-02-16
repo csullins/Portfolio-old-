@@ -1,0 +1,183 @@
+* {
+    font-family: 'Nunito', sans-serif;   
+    color: antiquewhite;
+}
+
+body {
+    background-color: rgb(41, 38, 38);
+}
+/* Center-aligns the first text on the page from 'You are...-'on my journey.'*/
+main {
+    text-align: center;
+}
+/*"You are welcomed."*/
+h1 {
+    padding-top: 150px;
+    font-size: 75px;
+    animation: fadeIn 8s;
+    text-shadow: 4px 4px 13px #d08686;
+}
+/* "To my portfolio & on my journey."*/
+main h3, h4 {
+    margin: 0%;
+    animation: fadeIn 10s;
+}
+/* "And on my journey."*/
+main h4  {
+    font-size: 13px;
+    padding-top: 50px;
+    animation: fadeIn 8s;
+}
+/* "on my journey"*/
+h4 span {
+    font-style: italic;
+    animation: fadeIn 6s;
+}
+/* This code block provides parameters for the fadeIn transition*/
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+/* Nav section is responsive to screen size with the flex property.*/
+  nav {
+    padding: 150px 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+/* section for the main 4 clickable links in nav section*/
+  nav a {
+    transform: skew(-25deg);
+    padding: 100px;
+    background-image: linear-gradient(    
+        -225deg,
+    #201c1d 0%,
+    #36292f 29%,
+    #70445653 67%,
+    #fff7002a 100%);
+    box-shadow: 4px 4px 30px #d08686c6;
+    flex: 1 0;
+}
+
+a {
+    color: #cf9393;
+    text-decoration: none;
+    text-shadow: 4px 4px 13px #d08686;
+}
+
+.portfolio {
+    background-color: #201c1d;
+    box-shadow: 4px 4px 13px #d08686;
+    padding: 100px 0px;
+}
+/* "A collection of my work"*/
+.portfolio header {
+    padding: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.portfolio-content {
+    display: flex;
+    height: auto;
+    text-align: center;
+    padding: 0;
+    margin-left: 0;
+}
+
+.portfolio-content div {
+    flex-wrap: wrap;
+    flex: 1 0;
+    color: #cf9393;
+    text-decoration: none;
+    text-shadow: 4px 4px 13px #d08686;
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.time-wasters {
+    background-color: #0c0a0b;
+    padding: 100px 0px;
+    box-shadow: 4px 4px 13px #d08686;
+    
+}
+/* "Some fun time wasters."*/
+.time-wasters header {
+        text-align: center;
+        font-size: 50px;
+}
+
+.time-wasters-content {
+    display: flex;
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+    padding: 0;
+    margin-left: 0;
+}
+/* "Click on each to take a break..."*/
+.time-wasters p {
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
+}
+
+.time-wasters-content li {
+    list-style-type: none;
+    margin: auto;
+    width: 100%;
+    height: 200px;
+    object-fit: fill;
+}
+.time-wasters-content img {
+    border-radius: 50%;
+}
+/* "Curriculum vitae" */
+.CV {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.CV span {
+    font-style: italic;
+    font-size: 12px;
+}
+
+.contact {
+    padding: 100px 50px;
+    text-align: center;
+}
+/* "Camile Sullins"*/
+.contact header {
+   font-size: 20px;
+}
+
+.contact img {
+    border-radius: 50%;
+    box-shadow: 4px 4px 13px #d08686;
+    width: 100px;
+    height: 100px;
+}
+
+
+.contact-answer {
+    font-style: italic;
+}
+input, textarea {
+    background-color: #201c1d;
+    border: none;
+}
+
+.button-submit {
+    box-shadow: 4px 3px 8px #d08686;
+    background: #2d2829a2;
+    transition: background 0.5s ease-in-out;
+}
+
+.button-submit:hover {
+    background: #c97f7f54;
+}

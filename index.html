@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <main class="main-container">
+        <h1>You are welcomed.</h1>
+      <div>
+        <h3>to my portfolio</h3>
+        <h4>and <span>on my journey</span>.</h4>
+    </div>  
+    </main>
+
+
+<!--WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section-->
+    <nav>
+        <a href="#portfolio">portfolio.</a>
+        <a href="#time-wasters">time-wasters.</a>
+        <a href="#CV">all business.</a>
+        <a href="#contact">get in touch.</a>
+    </nav>
+    <!--WHEN I click on the link to the section about their work
+        THEN the UI scrolls to a section with titled images of the developer's apps linked to the deployed apps-->     
+    <section class="portfolio">
+        <header id="portfolio">A collection of my work.
+        </header>
+             <div class="portfolio-content">               
+                <div>Horiseon Website Code Refactor
+                   <a href="https://csullins.github.io/My-02-Challenge/" target="_blank" rel="noopener noreferrer"><img src="assets/images/horiseon-mock-up.png" alt="horiseon mockup"/></a>
+                </div>
+                <div>Portfolio
+                   <a href=""target="_blank" rel="noopener noreferrer"><img src="assets/images/mod2-mockup.png" width="100%"" height="100%" alt="portfolio"/></a>
+                </div>
+                <div>My Very First Website
+                    <a href="https://csullins.github.io/Mass-Data-Ultra/" target="_blank" rel="noopener noreferrer"><img src="assets/images/first-website.png" width="100%" height="100%" alt="mockup of very first website"/></a>
+                </div>
+            </div>
+
+        </p>
+    </section>
+    <section class="time-wasters">
+        <header id="time-wasters" >Some fun time wasters.</header>
+        <ul class="time-wasters-content"> 
+            <li><a href="https://flexboxfroggy.com/" target="_blank" rel="noopener noreferrer"><img src="https://media.giphy.com/media/zPfcyMT5MG8hjTrnkm/giphy.gif" alt="frog image" width="50%" height="200px"/></a></li>
+           
+            <li><a href="https://froggerclassic.appspot.com/" target="_blank" rel="noopener noreferrer"><img src="https://media.giphy.com/media/r7QiDunxBlEVVUgtfh/giphy.gif" alt="second frog" width=50% height="200px"/></a></li>
+        </ul>
+        <p>(click on each to take a break and waste some time!)</p>
+    </section>
+    
+    <section class="CV" id="CV"><a href="https://msnlabs.com/img/resume-sample.pdf" target="_blank" rel="noopener noreferrer">Curriculum vitae <span>(well, a template.)</span></a>
+    </section>
+
+
+<!--WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+    -->
+    <section id="contact" class="contact"> 
+        <header>Camile Sullins</header><br>
+        <img src="assets/images/me.jpeg" alt="photo of me">
+        <div>
+            <p>What I do: <span class="contact-answer">Web & graphic design</span></p>
+            <p>Where I'm found: <span class="contact-answer">Austin, TX</span></p>
+            <p>When can you find me: <span class="contact-answer">Always, but preferably 9am to 6pm weekdays</span></p>
+
+        <form action="mailto:dummy@gmail.com" method="post" enctype="text/plain">
+            <label>Name:</label>
+            <input type="text" name="YourName" value=""><br>
+            <label>Email:</label>
+            <input type="email" name="YourEmail" value=""><br>
+            <label>Message:</label><br>
+            <textarea name="yourMessage" rows="8" cols="30">This website is so cool! Just thought you should know.</textarea><br>
+            <input type="submit" class="button-submit">
+    </section>
+    
+</body>
+</html>
